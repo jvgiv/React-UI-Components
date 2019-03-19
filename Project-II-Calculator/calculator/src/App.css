@@ -4,9 +4,10 @@
 }
 
 .whole-calc {
-    width: 600px;
+    width: 602.5px;
+    height: auto;
     display: flex;
-    border: 2.5px solid #979797;
+    border: 1px solid #979797;
     margin: 0 auto;
     flex-wrap: wrap;
 }

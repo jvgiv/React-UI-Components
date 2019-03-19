@@ -1,5 +1,5 @@
 .topRow {
-    width: 600px;
+    width: 602.5px;
     height: 100px;
     border: 1px solid black;
     display: flex;
@@ -7,4 +7,5 @@
     align-items: center;
     background: #222222;
     color: white;
+    padding-right: 10px;
 }

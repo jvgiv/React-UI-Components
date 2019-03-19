@@ -1,8 +1,11 @@
-.num_row {
-    width: 150px;
-    border: 1px solid blue;
+.keys {
+    width: 148.6px;
+    /* border: 1px solid blue; */
+    border: 1px solid #979797;
     height: 90px;
- 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mid_section {
@@ -12,11 +15,48 @@
 
 .long_box {
     width: 450px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    border: 1px solid #979797;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .redBox {
     color: white;
     width: 150px;
-    border: 2.5px solid #979797;
+    border: 1px solid #979797;
+    background: #A0001E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90px;
+}
+
+.topTwoB {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 90px;
+    text-align: center;
+}
+
+.num_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clear {
+    font-size: 50px;
+}
+
+.bot {
+    height: 90px;
+}
+
+.lastDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
