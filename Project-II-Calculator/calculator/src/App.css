@@ -1,0 +1,12 @@
+* {
+    font-size: 60px;
+    /* border: 2.5px solid #979797; */
+}
+
+.whole-calc {
+    width: 600px;
+    display: flex;
+    border: 2.5px solid #979797;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}

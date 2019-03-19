@@ -1,0 +1,22 @@
+.num_row {
+    width: 150px;
+    border: 1px solid blue;
+    height: 90px;
+ 
+}
+
+.mid_section {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.long_box {
+    width: 450px;
+    border: 1px solid green;
+}
+
+.redBox {
+    color: white;
+    width: 150px;
+    border: 2.5px solid #979797;
+}
