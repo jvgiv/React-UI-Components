@@ -2,4 +2,76 @@ body {
   margin: 0;
   padding: 0.4rem;
   font-family: sans-serif;
+  /* height: 800px; */
 }
+
+/* .title {
+  display: flex;
+} */
+
+.content {
+  width: 45%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+.HeaderContainer{
+  display: flex;
+  /* height: 130px; */
+
+}
+
+.HeaderContainer .title-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.HeaderContainer--img {
+  border: 1px solid blue;
+  flex-direction: column;
+  width: 180px;
+}
+
+/* .title {
+  display: flex;
+  flex-direction: row;
+} */
+
+.title--child {
+  /* width: 100%; */
+  border: 1px solid green;
+  display: block;
+}
+
+
+
+.top-img {
+  padding-top: 20px;
+  width: 85px; 
+}
+
+
+.card-content {
+  width: 760px;
+  border: 1px solid gray;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.card-content img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.card-text {
+  margin-left: 15px;
+}
+
+/* forgot to commit all day */
