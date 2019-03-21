@@ -3,12 +3,11 @@ import './Button.css';
 
 // const twoSix = ['clear', '÷', 0, '='];
 
-const ActionButton = () => {
+const SecSix = prop => {
     return (
-
-        <div className="topTwoB">
-            <div className="long_box clear">clear</div>
-            <div className="redBox">÷</div>
+        <div className="lastDiv">
+            <div className="long_box bot">0</div>
+            <div className="redBox equals">=</div>
         </div>
     );
 }
@@ -23,5 +22,5 @@ const ActionButton = () => {
 // }
 
 
-export default ActionButton; 
-// export default SecTwo;
+// export default ActionButton; 
+export default SecSix;
